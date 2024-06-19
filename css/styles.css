@@ -99,7 +99,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .search-section .form-row .form-group {
+    .search-section .form-row {
         display: none;
     }
     .search-section .btn {
@@ -107,5 +107,12 @@ body {
         width: 100%;
         height: 50px;
         font-size: 18px;
+        margin-top: 0;
+    }
+    .search-section {
+        padding-top: 3%;
+    }
+    .div2 {
+        padding-top: 0;
     }
 }

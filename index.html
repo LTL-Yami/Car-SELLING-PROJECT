@@ -48,7 +48,7 @@
     <div class="div2">
         <!-- Search Section -->
         <div class="search-section">
-            <form>
+            <form class="d-none d-md-block">
                 <div class="form-row align-items-end">
                     <div class="form-group col-md-2">
                         <label for="make">Make</label>
@@ -75,11 +75,15 @@
                         <label for="keyword">Keyword</label>
                         <input type="text" class="form-control" id="keyword" placeholder="Search by keyword">
                     </div>
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-3 text-right">
                         <button type="submit" class="btn btn-primary">Show Cars</button>
                     </div>
                 </div>
             </form>
+            <!-- Mobile Search Button -->
+            <div class="d-md-none mt-1">
+                <a href="./search_cars.html" class="btn btn-primary btn-block">Search Cars</a>
+            </div>
         </div>
 
         <h1>Search by lifestyle</h1>
