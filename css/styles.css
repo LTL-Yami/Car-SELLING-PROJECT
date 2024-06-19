@@ -1,24 +1,54 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .navbar {
     display: flex;
     align-items: center;
     background-color: #333;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
 }
+
 .navbar-logo {
     color: white;
     text-decoration: none;
     font-size: 24px;
     margin-right: auto;
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
     padding: 14px 20px;
 }
+
 .navbar a:hover {
     background-color: #575757;
+}
+
+.div1 {
+    position: relative;
+    height: 300px;
+    background-image: url('../images/div1.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px; /* To account for the fixed navbar */
+}
+
+.div2 {
+    position: relative;
+    top: -90px; /* Adjust to overlap div1 */
+    margin: 0 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
