@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: auto;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
